@@ -32,5 +32,19 @@ nav{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    color:rgb(22, 35, 35)
   
+  }
+  .header{
+    background: #FFF8F3;
+  }
+  .banner{
+    display:flex;
+    align-items: center;
+    padding: 30px 30px 30px 150px;
+  }
+  .banner .profilepic{
+    width: 500px;
+    height: 600px;
+   
   }
