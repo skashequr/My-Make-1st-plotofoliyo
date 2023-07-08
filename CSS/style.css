@@ -36,15 +36,61 @@ nav{
   
   }
   .header{
-    background: #FFF8F3;
+    background: #FFF8F3; 
+    background-image: url('../images/header_bg.png');
+    background-repeat:no-repeat ;
+    background-position: bottom right;
   }
   .banner{
     display:flex;
     align-items: center;
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
+    justify-content: space-between;
+    
   }
   .banner .profilepic{
     width: 500px;
     height: 600px;
+    position: bottom right;
    
+  }
+  .prothom{
+    color:#474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+  }
+  .second{
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin: 0px;
+  }
+  .thard{
+    
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding:0px;
+    max-width:585px;;
+  
+
+  } 
+
+
+
+  .section-title{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    ont-size: 35px;
+    font-weight: 700;
+  }
+  .Sec-likha{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 130px 0px;
   }
